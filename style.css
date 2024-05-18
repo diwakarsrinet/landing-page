@@ -1,0 +1,181 @@
+/* Landing page CSS file */
+body {
+    
+}
+.header, .top, .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-name {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.site-name {
+    font-size: 36px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    list-style-type: none;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup-button {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+}
+
+.section1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.itinerary-suggestions {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.itinerary {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.itinerary-text {
+    width: 300px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section2 {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotes-text, .quotes-author {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotes-author {
+    font-weight: bold;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.action-box {
+    display: flex;
+    flex-flow: row;
+    background-color: #3882F6;
+    color: white;
+    padding: 16px 48px;
+    gap: 24px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+#subscribe-button {
+    border: none;
+    border-color: #f9faf8;
+    color: #3882F6;
+    font-weight: bold;
+    border-radius: 8px;
+    height: fit-content;
+    padding: 8px;
+}
+
+.actioncall-headline {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.actioncall-text {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Logo and Images */
+
+#logo {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.logo-div {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.top-image {
+    width: 300px;
+    height: auto;
+}
+
+.itinerary-image {
+    width: 300px;
+    height: 200px;
+}
